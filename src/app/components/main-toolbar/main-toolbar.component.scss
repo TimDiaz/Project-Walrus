@@ -1,0 +1,20 @@
+@import "../../../styles/themeing";
+
+.fixed-header {
+  position: fixed;
+  z-index: 2;
+}
+
+.brand-icon {
+  margin-right: 10px;
+}
+
+mat-toolbar, .mat-toolbar-row {
+  height: $topbarHeight;
+  min-height: $topbarHeight;
+}
+
+.avatar-button {
+  width: 40px;
+  height: 40px;
+}

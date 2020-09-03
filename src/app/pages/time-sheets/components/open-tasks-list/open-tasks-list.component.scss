@@ -1,0 +1,37 @@
+/* Structure */
+.task-grid-container {
+  padding: 5px;
+  max-width: 600px;
+  width: 80vw;
+
+  mat-table {
+    max-height: 65vh;
+    overflow-y: auto;
+  }
+
+  mat-spinner {
+    margin: auto;
+  }
+}
+
+.mat-table {
+  overflow: auto;
+}
+
+.mat-column-select {
+  overflow: visible;
+}
+
+.mat-column-description {
+  flex: 0 0 200px;
+}
+
+mat-cell.mat-cell {
+  cursor: pointer;
+}
+
+mat-cell.mat-cell,
+mat-footer-cell.mat-footer-cell,
+mat-header-cell.mat-header-cell {
+  padding: 0.75rem !important;
+}

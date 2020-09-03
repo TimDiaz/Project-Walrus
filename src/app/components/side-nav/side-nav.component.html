@@ -1,0 +1,19 @@
+<mat-sidenav-container class="main-side-nav-container" [ngClass]="{'micro': menuMode == 'micro' }" autosize>
+  <mat-sidenav #sidenav class="main-side-nav" mode="side" opened fixedInViewport fixedTopGap=48>
+    <mat-nav-list class="nav-top">
+      <a mat-list-item routerLink="{{navItem.url}}" *ngFor="let navItem of navItemList">
+        <mat-icon matListIcon>{{navItem.icon}}</mat-icon>
+        <span matLine> {{ navItem.title }}</span>
+      </a>
+    </mat-nav-list>
+    <mat-nav-list>
+      <mat-list-item class="nav-collapse-button" (click)="toggleSideMenuMode()">
+        <mat-icon matListIcon>keyboard_arrow_left</mat-icon>
+        <span matLine>Collapse side menu</span>
+      </mat-list-item>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content id="main-content">
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

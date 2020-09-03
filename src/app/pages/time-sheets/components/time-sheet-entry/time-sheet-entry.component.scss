@@ -1,0 +1,55 @@
+.container {
+  .form-body {
+    max-height: 65vh;
+    overflow-y: auto;
+  }
+}
+
+.form-item {
+  font-size: 14px;
+  margin: 6px 0;
+}
+
+.form-item-row {
+  .form-item {
+    margin: 6px 4px;
+  }
+}
+
+.slider-form-item {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  mat-error {
+    font-size: 75%;
+    margin-top: 0.46666667em;
+    top: calc(100% - 1.79166667em);
+  }
+}
+
+.slider-field {
+  height: 70%;
+  .slider-field-label,
+  .slider-field-extension {
+    color: rgba(0, 0, 0, 0.54);
+  }
+  .mat-slider {
+    padding-bottom: 0;
+    height: 25px;
+  }
+}
+
+.dialog-subtitle {
+  h4 {
+    font: 500 15px/24px Roboto, "Helvetica Neue", sans-serif;
+    display: inline-block;
+  }
+
+  span {
+    padding: 0.7em 0;
+  }
+}
+
+.mat-form-field.mat-form-field-type-mat-select {
+  ::ng-deep .mat-form-field-infix {
+    width: 150px;
+  }
+}
