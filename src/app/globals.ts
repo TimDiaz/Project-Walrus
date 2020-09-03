@@ -3,7 +3,7 @@ import {environment} from '../environments/environment';
 
 @Injectable()
 export class Globals {
-  appName = 'Workplace';
+  appName = 'Time sheet Tracking';
   maxWorkHoursPerWeek = 0;
   baseApiUrl: string
 
