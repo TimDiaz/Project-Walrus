@@ -115,6 +115,6 @@ export class TimeSheetGridComponent implements OnInit {
   }
 
   infoPanelToggleButtonText() {
-    return this.authService.getUserPreference('showTimeSheetGridInfoPanel') ? 'Hide info panel' : 'Show info pannel';
+    return this.authService.getUserPreference('showTimeSheetGridInfoPanel') ? 'Hide info panel' : 'Show info panel';
   }
 }

@@ -215,6 +215,6 @@ export class AdminTimeSheetGridComponent implements AfterViewInit {
   }
 
   infoPanelToggleButtonText() {
-    return this.authService.getUserPreference('showTimeSheetGridInfoPanel') ? 'Hide info panel' : 'Show info pannel';
+    return this.authService.getUserPreference('showTimeSheetGridInfoPanel') ? 'Hide info panel' : 'Show info panel';
   }
 }
